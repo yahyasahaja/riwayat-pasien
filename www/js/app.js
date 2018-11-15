@@ -125,7 +125,7 @@ var App = {
       },
       success : function(dataObject) {
         console.log(dataObject)
-        $("#listview").empty();
+        $("#lvDokter").empty();
         for (let dt of dataObject.data) {
           $("#lvDokter").append('<li data-icon="false"><a href="#"><h2>'+
           dt.name+'</h2><p>Spesialis : '+
