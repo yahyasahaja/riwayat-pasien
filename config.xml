@@ -8,10 +8,10 @@
         NgopiMen Team
     </author>
     
-        <icon src="res/icon/android/icon-36-ldpi.png" platform="android" qualifier="ldpi" />
-        <icon src="res/icon/android/icon-48-mdpi.png" platform="android" qualifier="mdpi" />
-        <icon src="res/icon/android/icon-73-hdpi.png" platform="android" qualifier="hdpi" />
-        <icon src="res/icon/android/icon-96-xhdpi.png" platform="android" qualifier="xhdpi" />
+        <icon src="res/android/icon-36-ldpi.png" platform="android" qualifier="ldpi" />
+        <icon src="res/android/icon-48-mdpi.png" platform="android" qualifier="mdpi" />
+        <icon src="res/android/icon-73-hdpi.png" platform="android" qualifier="hdpi" />
+        <icon src="res/android/icon-96-xhdpi.png" platform="android" qualifier="xhdpi" />
     
     <content src="index.html" />
     <access origin="*" />
