@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="men.ngopi.riwayatpasien" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Riwayat Pasien</name>
+    <description>
+        A blank PhoneGap app.
+    </description>
+    <author email="riwayatpasien@ngopi.men" href="http://ngopimen.gitlab.io/ngopimen">
+        NgopiMen Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <gap:plugin source="npm" name="cordova-plugin-whitelist"/>
+
+    <allow-navigation href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+</widget>
