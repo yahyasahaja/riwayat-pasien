@@ -7,6 +7,12 @@
     <author email="riwayatpasien@ngopi.men" href="http://ngopimen.gitlab.io/ngopimen">
         NgopiMen Team
     </author>
+    <platform name="android">
+        <icon src="res/icon/android/icon-36-ldpi.png" platform="android" qualifier="ldpi" />
+        <icon src="res/icon/android/icon-48-mdpi.png" platform="android" qualifier="mdpi" />
+        <icon src="res/icon/android/icon-73-hdpi.png" platform="android" qualifier="hdpi" />
+        <icon src="res/icon/android/icon-96-xhdpi.png" platform="android" qualifier="xhdpi" />
+    </platform>
     <content src="index.html" />
     <access origin="*" />
     <gap:plugin source="npm" name="cordova-plugin-whitelist"/>
