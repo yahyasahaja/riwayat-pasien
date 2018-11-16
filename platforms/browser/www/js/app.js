@@ -8,10 +8,11 @@ var App = {
       App.showPasien()
     })
     $(document).on('click', '#detail-pasien', function(){
-      idpasien = $(this).data('idpasien')
+      id = $(this).data('idpasien')
+      App.showPeriksaPasien(id)
     })
     $(document).on('pageinit', '#periksa', function(){
-      App.showPeriksaPasien(idpasien)
+      App.showPeriksaPasien(id)
     })
     $(document).on('click', '#detail-periksa', function(){
       var idperiksa = $(this).data('idperiksa')
