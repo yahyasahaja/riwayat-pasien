@@ -40,7 +40,7 @@ var App = {
         $("#listview").empty();
         for (let dt of dataObject.data) {
           $("#listview").append('<li><a href="#periksa?id='+
-          dt.id+'"target="_self" id="detail-pasien" data-idpasien="'+dt.name+'"><h2>'+
+          dt.id+'"target="_self" id="detail-pasien" data-idpasien="'+dt.id+'"><h2>'+
           dt.name+'</h2><p>Tanggal lahis : '+
           dt.birthdate +'</p><p>Jenis Kelamin : '+
           dt.gender +'</p></a></li>');
@@ -68,10 +68,10 @@ var App = {
         console.log(id)
         $("#lvPeriksa").empty();
         for (let dt of dataObject.data) {
-          if(dt.patient_name == id){
+          if(dt.p_id == id){
             $("#nama_pasien").html(dt.patient_name)
             $("#lvPeriksa").append('<li><a href="#periksaPenyakit?id='+
-            dt.id+'"target="_self" id="detail-periksa" data-idperiksa="'+dt.id+'"><h2>Dokter : '+
+            dt.mc_id+'"target="_self" id="detail-periksa" data-idperiksa="'+dt.mc_id+'"><h2>Dokter : '+
             dt.doctor_name+'</h2><p>Tanggal : '+
             dt.date +'</p><p></li>');
             console.log(dt)
