@@ -15,26 +15,26 @@
 
 <body>
     <!-- <script type="text/javascript" src="cordova.js"></script>  -->
-    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/app.js?" type="text/javascript"></script>
     <script>
         App.initApplication();
     </script>
     
     <!--Pasien-->
     <div data-role="page" id="pasien">
-
         <div data-role="header" style="overflow:hidden;">
             <h1>Pasien</h1>
-            
         </div>
+
         <div data-role="navbar">
             <ul>
                 <li><a href="#" class="ui-btn-active">Pasien</a></li>
                 <li><a href="#dokter">Dokter</a></li>
                 <li><a href="#penyakit">Penyakit</a></li>
             </ul>
-        </div><!-- /navbar -->
-
+        </div>
+    
+        <!-- /navbar -->
         <div role="main" class="ui-content">
             <ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search patient..." id="listview">
         
@@ -87,7 +87,7 @@
             </ul>
         </div><!-- /navbar -->
 
-    <div role="main" class="ui-content">
+        <div role="main" class="ui-content">
             <ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search disease..." id="lvPenyakit">
     
             </ul> 

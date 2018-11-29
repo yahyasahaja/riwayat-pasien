@@ -42,7 +42,7 @@ var App = {
         for (let dt of dataObject.data) {
           $("#listview").append('<li><a href="#periksa?id='+
           dt.id+'"target="_self" id="detail-pasien" data-idpasien="'+dt.id+'"><h2>'+
-          dt.name+'</h2><p>Tanggal lahis : '+
+          dt.name+'</h2><p>Tanggal lahir : '+
           dt.birthdate +'</p><p>Jenis Kelamin : '+
           dt.gender +'</p></a></li>');
         }
